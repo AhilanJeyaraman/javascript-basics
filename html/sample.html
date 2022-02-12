@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>
+            This is my first page
+        </title>
+        <script>
+            function handleclick (){
+                console.log('click')
+                let u = document.getElementById("username").value
+                alert(u)
+            }
+
+            function setusername (){
+                document.getElementById("username").value = "873"
+            }
+
+            function setallusername (){
+                let result = document.getElementsByName("username")
+                for (let i=0; i<result.length; i++){
+                    result[i].value = 966;
+                }
+            }
+
+        </script>
+    </head>
+
+    <body>
+        <p>This is the first paragraph</p>
+        <p>This is the second paragraph</p>
+        <label>Enter a name<input type="text" id="username" name="username"/></label>
+        <button onclick="handleclick()">Click me</button>
+        <button onclick="setusername()">Set Value</button>
+        <label>Enter a name<input type="text" id="username123" name="username"/></label>
+        <button onclick="setallusername()">Set Value</button>
+    </body>
+</html>
