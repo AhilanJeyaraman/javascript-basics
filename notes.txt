@@ -1,2 +1,27 @@
-This is the sample file for git push
-Second commit to the file
+github(gitlab,bitbucket) = code repository management = centralized location of code
+code repository management = many people working on the same project (agile)
+When many people work on the same project there can be conflicts (people working on the same piece of code)
+
+CREATING REPOSITORY
+________________________________________________________________
+1. create repository (and github account)
+2. create local version of repository
+3. add files to repository locally
+4. make changes to any file in the repo
+5. use git commands to add files to repository
+  - git add [filename] or if more than one file [--al]
+  - git commit -m '[your commit message describing what you did]'
+  - git push to push all your work to github repository for all to see
+
+GIT BRANCHING
+----------------------------------------------------------------
+each person can create a branch and make changes to whatever they want.
+
+1.You can create a branch within github.
+2. git checkout [branch name].
+  - create edits.
+  - use git commands noted above (git add,etc).
+3. creating a pull request within github.
+  - this is requesting code to go into another branch.
+  - merge request usuall will go to a senior developer for review and merged.
+  - merge conflicts are resolved in merge requests if conflicts happen.
