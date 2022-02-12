@@ -1,2 +1,4 @@
 This is the sample file for git push
 Second commit to the file
+Third line
+Fourth line
