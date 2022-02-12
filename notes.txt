@@ -25,3 +25,5 @@ each person can create a branch and make changes to whatever they want.
   - this is requesting code to go into another branch.
   - merge request usuall will go to a senior developer for review and merged.
   - merge conflicts are resolved in merge requests if conflicts happen.
+
+Another edit
